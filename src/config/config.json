@@ -1,0 +1,25 @@
+{
+    "locale": "en",
+    "localeLanguages": {
+      "ENGLISH": "en-US",
+      "POLISH": "pl-PL"
+    },
+    "grid": {
+      "pageSize": 6,
+      "rowsPerPageOptions": [6, 12, 24],
+      "initialState": {
+        "sorting": {
+          "sortModel": [
+            { 
+              "field": "last_name", 
+              "sort": "asc" 
+            }
+          ]
+        },
+        "columns": { 
+          "columnVisibilityModel": { "last_name": false } 
+        }
+      }
+    }
+    
+}
